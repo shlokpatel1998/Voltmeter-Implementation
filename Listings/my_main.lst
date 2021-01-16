@@ -1,0 +1,149 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         #line   1                "my_main.s"
+    1 00000000                 PRESERVE8
+    2 00000000                 AREA             MyCode, CODE, READONLY
+    3 00000000                 EXPORT           asmmain
+    4 00000000         asmmain
+    5 00000000                 import           myfprint
+    6 00000000 480A            LDR              r0, =srcstr
+    7 00000002 F7FF FFFE       BL               myfprint
+    8 00000006 480A            LDR              r0, =dststr
+    9 00000008 F7FF FFFE       BL               myfprint
+   10 0000000C 4808            LDR              r0, =dststr
+   11 0000000E 4907            LDR              r1, =srcstr
+   12 00000010         
+   13 00000010         strcopy
+   14 00000010 F811 3B01       LDRB             r3, [r1], #1
+   15 00000014 F800 3B01       STRB             r3, [r0], #1
+   16 00000018 2B00            CMP              r3, #0
+   17 0000001A D1F9            BNE              strcopy
+   18 0000001C 4803            LDR              r0, =srcstr
+   19 0000001E F7FF FFFE       BL               myfprint
+   20 00000022 4803            LDR              r0, =dststr
+   21 00000024 F7FF FFFE       BL               myfprint
+   22 00000028 E7FE    stop    B                stop
+   23 0000002A         
+   24 0000002A 00 00           ALIGN
+   25 0000002C 00000000 
+              00000000 
+              00000000 
+              00000000 
+              00000000 
+              00000000         AREA             MyData, DATA, READWRITE
+   26 00000000 53 74 72 
+              69 6E 67 
+              20 73 6F 
+              75 72 63 
+              65 00    srcstr  DCB              "String source",0
+   27 0000000E 53 74 72 
+              69 6E 67 
+              20 64 65 
+              73 74 69 
+              6E 61 74 
+              69 6F 6E 
+              00       dststr  DCB              "String destination", 0
+   28 00000021                 END
+Command Line: --debug --xref --cpreproc --diag_suppress=9931,1609,1581 --cpu=Co
+rtex-M4 --apcs=interwork --depend=.\objects\my_main.d -o.\objects\my_main.o -IC
+:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\RTE -IC:\Keil_v5\AR
+M\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include -IC:\Keil_v5\ARM\CMSIS\Include
+ --predefine="__UVISION_VERSION SETA 518" --predefine="MK60DN512xxx10 SETA 1" -
+-predefine="DEBUG SETA 1" --list=.\listings\my_main.lst my_main.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MyCode 00000000
+
+Symbol: MyCode
+   Definitions
+      At line 2 in file my_main.s
+   Uses
+      None
+Comment: MyCode unused
+asmmain 00000000
+
+Symbol: asmmain
+   Definitions
+      At line 4 in file my_main.s
+   Uses
+      At line 3 in file my_main.s
+Comment: asmmain used once
+stop 00000028
+
+Symbol: stop
+   Definitions
+      At line 22 in file my_main.s
+   Uses
+      At line 22 in file my_main.s
+Comment: stop used once
+strcopy 00000010
+
+Symbol: strcopy
+   Definitions
+      At line 13 in file my_main.s
+   Uses
+      At line 17 in file my_main.s
+Comment: strcopy used once
+4 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MyData 00000000
+
+Symbol: MyData
+   Definitions
+      At line 25 in file my_main.s
+   Uses
+      None
+Comment: MyData unused
+dststr 0000000E
+
+Symbol: dststr
+   Definitions
+      At line 27 in file my_main.s
+   Uses
+      At line 8 in file my_main.s
+      At line 10 in file my_main.s
+      At line 20 in file my_main.s
+
+srcstr 00000000
+
+Symbol: srcstr
+   Definitions
+      At line 26 in file my_main.s
+   Uses
+      At line 6 in file my_main.s
+      At line 11 in file my_main.s
+      At line 18 in file my_main.s
+
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+myfprint 00000000
+
+Symbol: myfprint
+   Definitions
+      At line 5 in file my_main.s
+   Uses
+      At line 7 in file my_main.s
+      At line 9 in file my_main.s
+      At line 19 in file my_main.s
+      At line 21 in file my_main.s
+
+1 symbol
+343 symbols in table
