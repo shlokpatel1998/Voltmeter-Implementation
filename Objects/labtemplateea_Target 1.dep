@@ -1,203 +1,0 @@
-Dependencies for Project 'labtemplateea', Target 'Target 1': (DO NOT MODIFY !)
-F (..\..\..\..\platform\utilities\src\fsl_misc_utilities.c)(0x552BB7C6)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\fsl_misc_utilities.o --omf_browse .\objects\fsl_misc_utilities.crf --depend .\objects\fsl_misc_utilities.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBC62E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBC626)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_misc_utilities.h)(0x550954FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_debug_console.h)(0x552BB7C6)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction.h)(0x553100D0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction_bm.h)(0x552ECF64)
-F (..\..\..\..\platform\utilities\src\fsl_debug_console.c)(0x552BB7C6)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\fsl_debug_console.o --omf_browse .\objects\fsl_debug_console.crf --depend .\objects\fsl_debug_console.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBC62E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBC626)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_features.h)(0x552C0356)
-I (C:/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_debug_console.h)(0x552BB7C6)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction.h)(0x553100D0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction_bm.h)(0x552ECF64)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_uart_hal.h)(0x552BB7C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/system/inc/fsl_clock_manager.h)(0x552FF7B4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_sim_hal.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/../src/sim/MK60D10/fsl_sim_hal_MK60D10.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/system/inc/../src/clock/MK60D10/fsl_clock_MK60D10.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal.h)(0x553100D0)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal_modes.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_osc_hal.h)(0x552BB7C4)
-I (..\..\..\..\platform\utilities\src\print_scan.h)(0x550954FC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBC628)
-F (..\..\..\..\platform\utilities\src\print_scan.c)(0x550954FC)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\print_scan.o --omf_browse .\objects\print_scan.crf --depend .\objects\print_scan.d)
-I (..\..\..\..\platform\utilities\src\print_scan.h)(0x550954FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBC626)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBC62E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55DBC628)
-F (..\..\..\..\platform\utilities\src\print_scan.h)(0x550954FC)()
-F (..\..\..\..\platform\utilities\inc\fsl_debug_console.h)(0x552BB7C6)()
-F (..\..\..\..\platform\utilities\inc\fsl_misc_utilities.h)(0x550954FC)()
-F (..\..\..\..\platform\devices\MK60D10\startup\arm\startup_MK60D10.s)(0x552BB7B8)(--cpu Cortex-M4 -g --apcs=interwork --cpreproc --diag_suppress=1609,1581-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "MK60DN512xxx10 SETA 1" --pd "DEBUG SETA 1"--list .\listings\startup_mk60d10.lst --xref -o .\objects\startup_mk60d10.o --depend .\objects\startup_mk60d10.d)
-F (..\..\..\..\platform\devices\MK60D10\startup\system_MK60D10.h)(0x552BB7B8)()
-F (..\..\..\..\platform\devices\MK60D10\startup\system_MK60D10.c)(0x552BB7B8)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\system_mk60d10.o --omf_browse .\objects\system_mk60d10.crf --depend .\objects\system_mk60d10.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_features.h)(0x552C0356)
-F (..\..\..\..\platform\devices\startup.c)(0x552BB7C2)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
-I (..\..\..\..\platform\devices\startup.h)(0x552BB7C2)
-I (..\..\..\..\platform\devices\fsl_device_registers.h)(0x552C035A)
-I (..\..\..\..\platform\devices\MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (..\..\..\..\platform\devices\MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (..\..\..\..\platform\devices\MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (..\..\..\..\platform\devices\MK60D10/include/MK60D10_features.h)(0x552C0356)
-F (..\..\..\..\platform\devices\startup.h)(0x552BB7C2)()
-F (..\..\..\..\platform\devices\fsl_device_registers.h)(0x552C035A)()
-F (..\..\gpio_pins.c)(0x552C0352)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\gpio_pins.o --omf_browse .\objects\gpio_pins.crf --depend .\objects\gpio_pins.d)
-I (..\..\gpio_pins.h)(0x552C0352)
-I (C:/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_gpio_driver.h)(0x552BB7C2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_port_hal.h)(0x552BB7C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_features.h)(0x552C0356)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_gpio_hal.h)(0x552BB7C4)
-F (..\..\gpio_pins.h)(0x552C0352)()
-F (..\..\pin_mux.c)(0x552C0352)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_features.h)(0x552C0356)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_port_hal.h)(0x552BB7C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_sim_hal.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/../src/sim/MK60D10/fsl_sim_hal_MK60D10.h)(0x552C035A)
-I (..\..\pin_mux.h)(0x552C0352)
-F (..\..\pin_mux.h)(0x552C0352)()
-F (..\..\board.c)(0x552C0352)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
-I (..\..\board.h)(0x552C0352)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (..\..\pin_mux.h)(0x552C0352)
-I (..\..\gpio_pins.h)(0x552C0352)
-I (C:/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_gpio_driver.h)(0x552BB7C2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_port_hal.h)(0x552BB7C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_features.h)(0x552C0356)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_gpio_hal.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/system/inc/fsl_clock_manager.h)(0x552FF7B4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_sim_hal.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/../src/sim/MK60D10/fsl_sim_hal_MK60D10.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/system/inc/../src/clock/MK60D10/fsl_clock_MK60D10.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal.h)(0x553100D0)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal_modes.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_osc_hal.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_smc_hal.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_debug_console.h)(0x552BB7C6)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction.h)(0x553100D0)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction_bm.h)(0x552ECF64)
-F (..\..\board.h)(0x552C0352)()
-F (..\..\driver_examples\gpio\hardware_init.c)(0x552C0352)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\hardware_init.o --omf_browse .\objects\hardware_init.crf --depend .\objects\hardware_init.d)
-I (C:/Freescale/KSDK_1.2.0/examples/twrk60d100m/board.h)(0x552C0352)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/examples/twrk60d100m/pin_mux.h)(0x552C0352)
-I (C:/Freescale/KSDK_1.2.0/examples/twrk60d100m/gpio_pins.h)(0x552C0352)
-I (C:/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_gpio_driver.h)(0x552BB7C2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_port_hal.h)(0x552BB7C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x55DBC628)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_extension.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/fsl_bitaccess.h)(0x552BB7B8)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10_features.h)(0x552C0356)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_gpio_hal.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/system/inc/fsl_clock_manager.h)(0x552FF7B4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_sim_hal.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/../src/sim/MK60D10/fsl_sim_hal_MK60D10.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/system/inc/../src/clock/MK60D10/fsl_clock_MK60D10.h)(0x552C035A)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal.h)(0x553100D0)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal_modes.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_osc_hal.h)(0x552BB7C4)
-I (C:/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_debug_console.h)(0x552BB7C6)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction.h)(0x553100D0)
-I (C:/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction_bm.h)(0x552ECF64)
-F (.\lab5.c)(0x5FC1735A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I C:/Freescale/KSDK_1.2.0/platform/osa/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include -I C:/Freescale/KSDK_1.2.0/platform/devices -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include -I C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup -I C:/Freescale/KSDK_1.2.0/platform/hal/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/inc -I C:/Freescale/KSDK_1.2.0/platform/system/inc -I C:/Freescale/KSDK_1.2.0/platform/utilities/inc -I C:/Freescale/KSDK_1.2.0/platform/drivers/src/gpio -I C:/Freescale/KSDK_1.2.0/examples/twrk60d100m --library_type=standardlib --c99 --diag_suppress=1296,186 --library_interface=armcc-I C:\Freescale\KSDK_1.2.0\examples\twrk60d100m\engg3640f20labs\Lab5\RTE-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DMK60DN512xxx10 -DDEBUG -DCPU_MK60DN512VMD10 -DTWR_K60D100M -DTOWER-o .\objects\lab5.o --omf_browse .\objects\lab5.crf --depend .\objects\lab5.d)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/include/MK60D10.H)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBC630)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h)(0x550954E4)
-I (C:/Freescale/KSDK_1.2.0/platform/devices/MK60D10/startup/system_MK60D10.h)(0x552BB7B8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBC626)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBC626)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DBC630)
-I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x55DBC628)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBC62E)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DBC62E)
